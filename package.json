@@ -1,0 +1,22 @@
+{
+  "name": "alldata-keygen",
+  "version": "0.1.0",
+  "description": "AllData key generation module",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "dateformat": "1.0.6-1.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alldata/alldata-keygen.git"
+  },
+  "keywords": [
+    "alldata",
+    "keygen"
+  ],
+  "author": "Tristan Slominski <tristan.slominski@gmail.com>",
+  "license": "MIT"
+}
