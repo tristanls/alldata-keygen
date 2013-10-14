@@ -34,14 +34,14 @@ AllDataKeygen generates a unique key for every event to be stored in AllData.
 
 Creates a new key. Example: `20130927T005240652508858176`.
 
-Format is `yyyymmddTHHMMsslllnnnnnnnnn`
+Format is `YYYYMMDDThhmmsslllnnnnnnnnn`:
 
-  * `yyyy` current UTC year
-  * `mm` current UTC month
-  * `dd` current UTC day
+  * `YYYY` current UTC year
+  * `MM` current UTC month
+  * `DD` current UTC day
   * `T` time separator
-  * `HH` current UTC hours
-  * `MM` current UTC minutes
+  * `hh` current UTC hours
+  * `mm` current UTC minutes
   * `ss` current UTC seconds
   * `lll` current UTC milliseconds
   * `nnnnnnnnn` nanoseconds "unique" marker from `process.hrtime()[1]`; could be less than 9 digits
