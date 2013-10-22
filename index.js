@@ -45,6 +45,9 @@ AllDataKeygen.createKey = function createKey() {
     var minutes = dateformat(now, "UTC:MM");
     var seconds = dateformat(now, "UTC:ss");
     var unique = dateformat(now, "UTC:l" + nowHr);
+    while (unique.length < 12) {
+        unique += "0";
+    }
 
     return year + month + day + 'T' + hours + minutes + seconds + unique;    
 };
